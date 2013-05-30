@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C6A6F5E175728A800768894 /* CocosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A6F5D175728A800768894 /* CocosViewController.m */; };
+		1C6A6F6017572F6B00768894 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6A6F5F17572F6B00768894 /* Storyboard.storyboard */; };
 		1CB818AA17572356002A824B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB818A917572356002A824B /* QuartzCore.framework */; };
 		1CB818AC17572356002A824B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB818AB17572356002A824B /* OpenGLES.framework */; };
 		1CB818AE17572356002A824B /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB818AD17572356002A824B /* OpenAL.framework */; };
@@ -136,6 +138,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C6A6F5C175728A800768894 /* CocosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosViewController.h; sourceTree = "<group>"; };
+		1C6A6F5D175728A800768894 /* CocosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosViewController.m; sourceTree = "<group>"; };
+		1C6A6F5F17572F6B00768894 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		1CB818A617572356002A824B /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB818A917572356002A824B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1CB818AB17572356002A824B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -458,12 +463,15 @@
 			children = (
 				1CB81A3317572358002A824B /* AppDelegate.h */,
 				1CB81A3417572358002A824B /* AppDelegate.m */,
+				1C6A6F5C175728A800768894 /* CocosViewController.h */,
+				1C6A6F5D175728A800768894 /* CocosViewController.m */,
 				1CB81A3617572358002A824B /* HelloWorldLayer.h */,
 				1CB81A3717572358002A824B /* HelloWorldLayer.m */,
 				1CB81A3917572358002A824B /* IntroLayer.h */,
 				1CB81A3A17572358002A824B /* IntroLayer.m */,
-				1CB818BC17572356002A824B /* Resources */,
 				1CB818D617572356002A824B /* libs */,
+				1CB818BC17572356002A824B /* Resources */,
+				1C6A6F5F17572F6B00768894 /* Storyboard.storyboard */,
 				1CB81A2F17572358002A824B /* Supporting Files */,
 			);
 			path = test;
@@ -895,6 +903,7 @@
 				1CB818D217572356002A824B /* Icon@2x.png in Resources */,
 				1CB818D517572356002A824B /* iTunesArtwork in Resources */,
 				1CB81A1317572358002A824B /* ChangeLog in Resources */,
+				1C6A6F6017572F6B00768894 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1009,6 +1018,7 @@
 				1CB81A3517572358002A824B /* AppDelegate.m in Sources */,
 				1CB81A3817572358002A824B /* HelloWorldLayer.m in Sources */,
 				1CB81A3B17572358002A824B /* IntroLayer.m in Sources */,
+				1C6A6F5E175728A800768894 /* CocosViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1030,7 +1040,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1049,7 +1059,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1065,6 +1075,7 @@
 				GCC_PREFIX_HEADER = test/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"test/libs/kazmath/include\"";
 				INFOPLIST_FILE = test/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1083,6 +1094,7 @@
 				GCC_PREFIX_HEADER = test/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"test/libs/kazmath/include\"";
 				INFOPLIST_FILE = test/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1112,6 +1124,7 @@
 				1CB81A4017572358002A824B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

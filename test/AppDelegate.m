@@ -10,6 +10,8 @@
 
 #import "AppDelegate.h"
 #import "IntroLayer.h"
+#import "CocosViewController.h"
+
 
 @implementation AppController
 
@@ -77,8 +79,14 @@
 
 	
 	// Create a Navigation Controller with the Director
-	navController_ = [[UINavigationController alloc] initWithRootViewController:director_];
-	navController_.navigationBarHidden = YES;
+//	navController_ = [[UINavigationController alloc] initWithRootViewController:director_];
+//	navController_.navigationBarHidden = YES;
+    UIStoryboard *mainStoryboard = [UIStoryboard storyboardWithName:@"Storyboard"
+                                                             bundle: nil];
+    navController_ = (UINavigationController *)[mainStoryboard instantiateViewControllerWithIdentifier:@"1"];
+    
+//    navController_ = [[UINavigationController alloc] initWithRootViewController:[[CocosViewController alloc] init]];
+    
 	
 	// set the Navigation Controller as the root view controller
 //	[window_ addSubview:navController_.view];	// Generates flicker.
