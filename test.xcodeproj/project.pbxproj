@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C151CD81759878900847AC2 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C151CD71759878900847AC2 /* TopicViewController.m */; };
+		1C151CDB1759894E00847AC2 /* ChoosePassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C151CDA1759894E00847AC2 /* ChoosePassViewController.m */; };
+		1C151CDE17598B8E00847AC2 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C151CDD17598B8E00847AC2 /* PlayViewController.m */; };
 		1C6A6F5E175728A800768894 /* CocosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C6A6F5D175728A800768894 /* CocosViewController.m */; };
 		1C6A6F6017572F6B00768894 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C6A6F5F17572F6B00768894 /* Storyboard.storyboard */; };
 		1CB818AA17572356002A824B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB818A917572356002A824B /* QuartzCore.framework */; };
@@ -138,6 +141,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C151CD61759878900847AC2 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		1C151CD71759878900847AC2 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		1C151CD91759894E00847AC2 /* ChoosePassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoosePassViewController.h; sourceTree = "<group>"; };
+		1C151CDA1759894E00847AC2 /* ChoosePassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoosePassViewController.m; sourceTree = "<group>"; };
+		1C151CDC17598B8E00847AC2 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		1C151CDD17598B8E00847AC2 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
 		1C6A6F5C175728A800768894 /* CocosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocosViewController.h; sourceTree = "<group>"; };
 		1C6A6F5D175728A800768894 /* CocosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocosViewController.m; sourceTree = "<group>"; };
 		1C6A6F5F17572F6B00768894 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
@@ -461,6 +470,12 @@
 		1CB818BB17572356002A824B /* test */ = {
 			isa = PBXGroup;
 			children = (
+				1C151CDC17598B8E00847AC2 /* PlayViewController.h */,
+				1C151CDD17598B8E00847AC2 /* PlayViewController.m */,
+				1C151CD91759894E00847AC2 /* ChoosePassViewController.h */,
+				1C151CDA1759894E00847AC2 /* ChoosePassViewController.m */,
+				1C151CD61759878900847AC2 /* TopicViewController.h */,
+				1C151CD71759878900847AC2 /* TopicViewController.m */,
 				1CB81A3317572358002A824B /* AppDelegate.h */,
 				1CB81A3417572358002A824B /* AppDelegate.m */,
 				1C6A6F5C175728A800768894 /* CocosViewController.h */,
@@ -1019,6 +1034,9 @@
 				1CB81A3817572358002A824B /* HelloWorldLayer.m in Sources */,
 				1CB81A3B17572358002A824B /* IntroLayer.m in Sources */,
 				1C6A6F5E175728A800768894 /* CocosViewController.m in Sources */,
+				1C151CD81759878900847AC2 /* TopicViewController.m in Sources */,
+				1C151CDB1759894E00847AC2 /* ChoosePassViewController.m in Sources */,
+				1C151CDE17598B8E00847AC2 /* PlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
